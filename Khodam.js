@@ -4,7 +4,7 @@ document.getElementById('checkButton').addEventListener('click', function() {
 
     if (name) {
         const khodam = checkKhodam(name);
-        result.innerHTML = 'Khodam Anda adalah: <strong></strong>';
+        result.innerHTML = 'Khodam Anda adalah: <strong>Om-Om Pedo</strong>';
     } else {
         result.innerHTML = '<span style="color: red;">Silakan masukkan nama Anda!</span>';
     }
